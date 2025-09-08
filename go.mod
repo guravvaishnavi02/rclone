@@ -33,7 +33,7 @@ require (
 	github.com/dropbox/dropbox-sdk-go-unofficial/v6 v6.0.5
 	github.com/gabriel-vasile/mimetype v1.4.8
 	github.com/gdamore/tcell/v2 v2.8.1
-	github.com/go-chi/chi/v5 v5.2.0
+	github.com/go-chi/chi/v5 v5.2.2
 	github.com/go-darwin/apfs v0.0.0-20211011131704-f84b94dbf348
 	github.com/go-git/go-billy/v5 v5.6.2
 	github.com/google/uuid v1.6.0
