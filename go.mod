@@ -1,6 +1,6 @@
 module github.com/rclone/rclone
 
-go 1.22.0
+go 1.24.0
 
 require (
 	bazil.org/fuse v0.0.0-20230120002735-62a210ff1fd5
@@ -80,12 +80,12 @@ require (
 	github.com/zeebo/blake3 v0.2.4
 	go.etcd.io/bbolt v1.3.11
 	goftp.io/server/v2 v2.0.1
-	golang.org/x/crypto v0.32.0
-	golang.org/x/net v0.34.0
+	golang.org/x/crypto v0.45.0
+	golang.org/x/net v0.47.0
 	golang.org/x/oauth2 v0.25.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/sys v0.29.0
-	golang.org/x/text v0.21.0
+	golang.org/x/sync v0.18.0
+	golang.org/x/sys v0.38.0
+	golang.org/x/text v0.31.0
 	golang.org/x/time v0.9.0
 	google.golang.org/api v0.216.0
 	gopkg.in/validator.v2 v2.0.1
@@ -208,8 +208,8 @@ require (
 	go.opentelemetry.io/otel/metric v1.31.0 // indirect
 	go.opentelemetry.io/otel/trace v1.31.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
-	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/tools v0.29.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250102185135-69823020774d // indirect
 	google.golang.org/grpc v1.69.2 // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
@@ -228,5 +228,5 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.1
 	github.com/pkg/xattr v0.4.10
 	golang.org/x/mobile v0.0.0-20250106192035-c31d5b91ecc3
-	golang.org/x/term v0.28.0
+	golang.org/x/term v0.37.0
 )
